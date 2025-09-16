@@ -30,11 +30,11 @@ const skills: Skill[] = [
   //   competency: 3,
   //   category: ['Web Development', 'Javascript'],
   // },
-  // {
-  //   title: 'Bash',
-  //   competency: 2,
-  //   category: ['Tools', 'Languages'],
-  // },
+  {
+    title: 'Bash',
+    competency: 4,
+    category: ['Tools', 'Languages'],
+  },
   // {
   //   title: 'Amazon Web Services',
   //   competency: 4,
