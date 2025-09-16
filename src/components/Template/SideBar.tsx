@@ -15,7 +15,7 @@ const SideBar: React.FC = () => {
     <section id="sidebar">
       <section id="intro">
         {/* <Link href="/" className="logo">
-          <Image src="/images/me.jpg" alt="Michael D'Angelo" width={200} height={200} priority />
+          <Image src="/images/me.jpg" alt="Chu Qiao" width={200} height={200} priority />
         </Link> */}
         <header>
           <h2>Chu Qiao</h2>
@@ -54,7 +54,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Chu Qiao <Link href="/">mrjackqiao.github.io</Link>.
         </p>
       </section>
     </section>

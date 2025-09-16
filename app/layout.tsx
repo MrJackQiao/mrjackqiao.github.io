@@ -23,35 +23,27 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: 'Chu Qiao',
+    template: '%s | Chu Qiao',
   },
-  description:
-    "Michael D'Angelo's personal website. Data scientist, machine learning engineer, and full-stack developer.",
-  keywords: [
-    "Michael D'Angelo",
-    'data scientist',
-    'machine learning',
-    'full-stack developer',
-    'engineer',
-    'portfolio',
-  ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
-  metadataBase: new URL('https://mldangelo.com'),
+  description: "Chu Qiao's personal website.",
+  keywords: ['Chu Qiao'],
+  authors: [{ name: 'Chu Qiao' }],
+  creator: 'Chu Qiao',
+  metadataBase: new URL('https://mrjackqiao.github.io'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
+    url: 'https://mrjackqiao.github.io',
+    siteName: 'Chu Qiao',
+    title: 'Chu Qiao',
     description: 'Data scientist, machine learning engineer, and full-stack developer.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: 'Chu Qiao',
       },
     ],
   },

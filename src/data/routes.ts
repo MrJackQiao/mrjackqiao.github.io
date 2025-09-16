@@ -8,12 +8,12 @@ const routes: Route[] = [
   {
     index: true,
     label: 'Chu Qiao',
-    path: '/about',
+    path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',

@@ -16,8 +16,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Resume',
-  description:
-    "Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+  description: "Chu Qiao's Resume.",
 };
 
 const sections = [

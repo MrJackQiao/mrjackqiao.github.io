@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: "Learn about Michael D'Angelo",
+  description: 'Learn about Chu Qiao',
 };
 
 export default function AboutLayout({ children }: { children: React.ReactNode }) {
