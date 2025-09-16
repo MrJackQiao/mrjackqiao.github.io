@@ -1,6 +1,6 @@
 import React from 'react';
 
-import type { Category, CategorySkills, Skill } from '@/data/resume/skills';
+import type { CategorySkills } from '@/data/resume/skills';
 
 interface CategorySkillsProps {
   data: CategorySkills;
@@ -8,10 +8,9 @@ interface CategorySkillsProps {
 
 const SkillBar: React.FC<CategorySkillsProps> = ({ data }) => {
   return (
-    <article>
-      <div>
-        {data.category}: {data.skills}
-      </div>
+    <article className="skill-bar">
+      <div className="category">{data.category}</div>
+      <div className="skills">{data.skills.join(', ')}</div>
     </article>
   );
 };
