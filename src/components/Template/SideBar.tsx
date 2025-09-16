@@ -36,7 +36,7 @@ const SideBar: React.FC = () => {
           <a href="https://arthena.com">Arthena</a>, and co-founded{' '}
           <a href="https://matroid.com">Matroid</a>.
         </p> */}
-        <ul className="actions">
+        {/* <ul className="actions">
           <li>
             {pathname && !pathname.includes('/resume') ? (
               <Link href="/resume" className="button">
@@ -48,7 +48,7 @@ const SideBar: React.FC = () => {
               </Link>
             )}
           </li>
-        </ul>
+        </ul> */}
       </section>
 
       <section id="footer">
