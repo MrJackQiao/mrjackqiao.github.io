@@ -20,8 +20,8 @@ import PageWrapper from './components/PageWrapper';
 
 const sections = [
   { name: 'Education', id: 'education' },
-  { name: 'Experience', id: 'experience' },
   { name: 'Skills', id: 'skills' },
+  { name: 'Experience', id: 'experience' },
   // { name: 'Courses', id: 'courses' },
   // { name: 'References', id: 'references' },
 ];
@@ -54,14 +54,14 @@ export default function HomePage() {
           <Education data={degrees} />
         </section>
 
-        <section id="experience" className="experience">
-          <div className="link-to" />
-          <Experience data={work} />
-        </section>
-
         <section id="skills" className="skills">
           <div className="link-to" />
           <SkillSection data={skills} />
+        </section>
+
+        <section id="experience" className="experience">
+          <div className="link-to" />
+          <Experience data={work} />
         </section>
 
         {/* <section id="courses" className="courses">

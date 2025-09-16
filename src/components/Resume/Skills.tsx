@@ -14,17 +14,6 @@ const SkillSection: React.FC<SkillsProps> = ({ data }) => (
     <div className="title">
       <h3>Skills</h3>
     </div>
-    {/* {data.map((categorySkill) => (
-      <SkillBar data={categorySkill} key={categorySkill.id} />
-    ))} */}
-    {/* <div className="skills-grid">
-      {data.map((s) => (
-        <React.Fragment key={s.id}>
-          <div className="category">{s.category}</div>
-          <div className="skills">{s.skills.join(', ')}</div>
-        </React.Fragment>
-      ))}
-    </div> */}
     <table className="skills-table">
       <tbody>
         {data.map((category) => (

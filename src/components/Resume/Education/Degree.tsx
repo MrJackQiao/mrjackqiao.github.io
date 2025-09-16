@@ -8,11 +8,11 @@ interface DegreeProps {
 
 const Degree: React.FC<DegreeProps> = ({ data }) => (
   <article className="degree-container">
-    <header>
-      <h4 className="degree">{data.degree}</h4>
-      <p className="school">
-        <a href={data.link}>{data.school}</a>, {data.year}
-      </p>
+    <header className="degree-grid">
+      <div className="school">{data.school}</div>
+      <div className="location">{data.location}</div>
+      <div className="degree">{data.degree}</div>
+      <div className="year">{data.year}</div>
     </header>
   </article>
 );
