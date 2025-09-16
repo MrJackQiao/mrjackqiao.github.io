@@ -1,4 +1,5 @@
 export interface Degree {
+  id: number;
   school: string;
   degree: string;
   link: string;
@@ -7,16 +8,18 @@ export interface Degree {
 
 const degrees: Degree[] = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    id: 0,
+    school: 'University of Delaware',
+    degree: 'M.S. Computer Science',
+    link: 'https://udel.edu',
+    year: 2019,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    id: 1,
+    school: 'University of Delaware',
+    degree: 'B.S. Computer Engineering',
+    link: 'https://udel.edu',
+    year: 2018,
   },
 ];
 

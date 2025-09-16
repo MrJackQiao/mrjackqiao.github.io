@@ -14,27 +14,28 @@ const SideBar: React.FC = () => {
   return (
     <section id="sidebar">
       <section id="intro">
-        <Link href="/" className="logo">
+        {/* <Link href="/" className="logo">
           <Image src="/images/me.jpg" alt="Michael D'Angelo" width={200} height={200} priority />
-        </Link>
+        </Link> */}
         <header>
-          <h2>Michael D&apos;Angelo</h2>
+          <h2>Chu Qiao</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="mailto:iaochu@udel.edu">qiaochu@udel.edu</a>
           </p>
         </header>
       </section>
 
       <section className="blurb">
         <h2>About</h2>
-        <p>
-          Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a>{' '}
+        <p>Hi, I am Chu Qiao, current a PhD student at University of Delaware.</p>
+        {/* <p>
+          Hi, I am Chu Qiao. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a>{' '}
           graduate, YC alumnus, and the co-founder and CTO of{' '}
           <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of Engineering at{' '}
           <a href="https://usesmileid.com">SmileID</a>, co-founder and CTO of{' '}
           <a href="https://arthena.com">Arthena</a>, and co-founded{' '}
           <a href="https://matroid.com">Matroid</a>.
-        </p>
+        </p> */}
         <ul className="actions">
           <li>
             {pathname && !pathname.includes('/resume') ? (

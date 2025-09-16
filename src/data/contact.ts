@@ -19,33 +19,33 @@ const data: ContactItem[] = [
     label: 'Github',
     icon: faGithub,
   },
+  // {
+  //   link: 'https://facebook.com/d',
+  //   label: 'Facebook',
+  //   icon: faFacebookF,
+  // },
+  // {
+  //   link: 'https://www.instagram.com/dangelosaurus/',
+  //   label: 'Instagram',
+  //   icon: faInstagram,
+  // },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/chu-jack-qiao/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
+  // {
+  //   link: 'https://angel.co/michael-d-angelo',
+  //   label: 'Angel List',
+  //   icon: faAngellist,
+  // },
+  // {
+  //   link: 'https://twitter.com/dangelosaurus',
+  //   label: 'Twitter',
+  //   icon: faTwitter,
+  // },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://twitter.com/dangelosaurus',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'mailto:qiaochu@udel.edu',
     label: 'Email',
     icon: faEnvelope,
   },
