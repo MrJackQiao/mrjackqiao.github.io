@@ -9,7 +9,7 @@ import References from '@/components/Resume/References';
 import Skills from '@/components/Resume/Skills';
 import courses from '@/data/resume/courses';
 import degrees from '@/data/resume/degrees';
-import { categories, skills } from '@/data/resume/skills';
+import { skills } from '@/data/resume/skills';
 import work from '@/data/resume/work';
 
 import PageWrapper from '../components/PageWrapper';
@@ -56,7 +56,7 @@ export default function ResumePage() {
 
         <section id="skills" className="skills">
           <div className="link-to" />
-          <Skills skills={skills} categories={categories} />
+          <Skills data={skills} />
         </section>
 
         <section id="courses" className="courses">
